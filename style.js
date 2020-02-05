@@ -1,4 +1,3 @@
-/*HUEBER2020 JS*/
 
 (function (blink) {
 	'use strict';
@@ -19,8 +18,11 @@
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
 				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title3'} },
 
-				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis'} },
-				{ name: 'Énfasis Naranja', element: 'span', attributes: { 'class': 'bck-enfasis-naranja'} },
+				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'Énfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Énfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+
 				//BK-15873 Quitamos el estilo versalitas, ya que lo hereda de basic
 
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
