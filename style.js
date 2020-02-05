@@ -38,7 +38,8 @@
 				{ name: 'Caja 5', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'Caja 6', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
 
-				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table'} },
+				{ name: 'Tabla 1', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-1'} },
+				{ name: 'Tabla 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
 
 				{ name: 'Presentación', element: 'h4', attributes: { 'class': 'presentation'} },
