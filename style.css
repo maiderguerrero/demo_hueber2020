@@ -780,7 +780,7 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 
 /*Caja 1*/
 
-.bck-box .bck-box-1 {
+.bck-box.bck-box-1 {
     background-color: #FFDBB4;
     padding: 15px;
 }
