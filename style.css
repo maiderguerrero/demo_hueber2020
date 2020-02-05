@@ -1181,22 +1181,37 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 /*Tabla 1*/
 
 .bck-table-1 {
-	border: 3px dotted #B7B1A9;
+	border: 2px dotted #B7B1A9;
 }
 
-.bck-table-1 td {
-	padding: 10px;
-	border-color: #ddd
-}
 
 /*Tabla 2*/
 
 .bck-table-2 {
-	border: 3px solid #B7B1A9;
+	border: 2px solid #B7B1A9;
+	border-radius: 15px;
+	padding: 20px;
 }
 
-table td.bck-td {
-	background-color: #CC99FF;
+.bck-table-2 td {
+	border-color: #B7B1A9;
+}
+
+
+/*---------------------------------------------------------CELDAS------------------------------------------------*/
+
+/*Celda 1*/
+
+.bck-td-1 {
+	border: 2px dotted #B7B1A9;
+	background: #C4E5F4;
+	padding: 10px;
+}
+
+.bck-td-2 {
+	border: 2px dotted #B7B1A9;
+	background: #fff;
+	padding: 10px;
 }
 
 /**/
