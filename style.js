@@ -40,7 +40,9 @@
 
 				{ name: 'Tabla 1', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-1'} },
 				{ name: 'Tabla 2', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
-				{ name: 'Celda', element: 'td', attributes: { 'class': 'bck-td'} },
+				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td-1'} },
+				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2'} },
+				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3'} },
 
 				{ name: 'Presentación', element: 'h4', attributes: { 'class': 'presentation'} },
 				{ name: 'Presentación 2', element: 'h4', attributes: { 'class': 'presentation-2'} },
