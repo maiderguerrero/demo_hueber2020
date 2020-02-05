@@ -1176,15 +1176,23 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 
 /**/
 
-/**TABLA**/
+/*-------------------------------------------------------TABLA----------------------------------------------------*/
 
-.bck-table {
-	border: 0;
+/*Tabla 1*/
+
+.bck-table-1 {
+	border: 3px dotted #B7B1A9;
 }
 
-.bck-table td {
+.bck-table-1 td {
 	padding: 10px;
 	border-color: #ddd
+}
+
+/*Tabla 2*/
+
+.bck-table-2 {
+	border: 3px solid #B7B1A9;
 }
 
 table td.bck-td {
