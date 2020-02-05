@@ -1,17 +1,17 @@
 (function (blink) {
 	'use strict';
 
-	var LnplatStyle = function () {
+	var demo_hueber2020Style = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	LnplatStyle.prototype = {
+	demo_hueber2020Style.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_lnplat',
+		bodyClassName: 'content_type_clase_demo_hueber2020',
 		ckEditorStyles: {
-			name: 'lnplat',
+			name: 'demo_hueber2020',
 			styles: [
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
@@ -58,8 +58,8 @@
 				{ name: 'Escuchar', type: 'widget', widget: 'blink_box', attributes: { 'class': 'escuchar-box' } },
 				{ name: 'Actividad Scorm ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'actividad-scorm-box' } },
 
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'lnplat-dropdown' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'lnplat-dropdown-2' } },
+				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'demo_hueber2020-dropdown' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'demo_hueber2020-dropdown-2' } },
 
 				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
@@ -177,7 +177,7 @@
 					'</div>';
 
 			$navbarBottom
-				.attr('class', 'lnplat-navbar')
+				.attr('class', 'demo_hueber2020-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before(dropDown)
@@ -378,8 +378,8 @@
         }
 	};
 
-	LnplatStyle.prototype = _.extend({}, new blink.theme.styles.basic(), LnplatStyle.prototype);
+	demo_hueber2020Style.prototype = _.extend({}, new blink.theme.styles.basic(), demo_hueber2020Style.prototype);
 
-	blink.theme.styles['lnplat'] = LnplatStyle;
+	blink.theme.styles['demo_hueber2020'] = demo_hueber2020Style;
 
 })( blink );
