@@ -1189,12 +1189,11 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 
 .bck-table-2 {
 	border: 2px solid #B7B1A9;
-	border-radius: 15px;
-	padding: 20px;
 }
 
 .bck-table-2 td {
 	border-color: #B7B1A9;
+	padding: 15px;
 }
 
 
