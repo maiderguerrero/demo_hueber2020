@@ -1191,11 +1191,6 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 	border: 2px solid #B7B1A9;
 }
 
-.bck-table-2 td {
-	border-color: #B7B1A9;
-	padding: 15px;
-}
-
 
 /*---------------------------------------------------------CELDAS------------------------------------------------*/
 
@@ -1207,9 +1202,18 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 	padding: 10px;
 }
 
+/*Celda 2*/
+
 .bck-td-2 {
 	border: 2px dotted #B7B1A9;
 	background: #fff;
+	padding: 10px;
+}
+
+/*Celda 3*/
+
+.bck-td-3 {
+    border-color: #B7B1A9;
 	padding: 10px;
 }
 
