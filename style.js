@@ -1,17 +1,17 @@
 (function (blink) {
 	'use strict';
 
-	var demo_hueber2020Style = function () {
+	var hueber2020_demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	demo_hueber2020Style.prototype = {
+	hueber2020_demoStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_demo_hueber2020',
+		bodyClassName: 'content_type_clase_hueber2020_demo',
 		ckEditorStyles: {
-			name: 'demo_hueber2020',
+			name: 'hueber2020_demo',
 			styles: [
 				{ name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title2'} },
@@ -58,8 +58,8 @@
 				{ name: 'Escuchar', type: 'widget', widget: 'blink_box', attributes: { 'class': 'escuchar-box' } },
 				{ name: 'Actividad Scorm ', type: 'widget', widget: 'blink_box', attributes: { 'class': 'actividad-scorm-box' } },
 
-				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'demo_hueber2020-dropdown' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'demo_hueber2020-dropdown-2' } },
+				{ name: 'Desplegable', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'hueber2020_demo-dropdown' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'hueber2020_demo-dropdown-2' } },
 
 				{ name: 'Imagen Sin Bordes', type: 'widget', widget: 'image', attributes: { 'class': 'normal-img' } },
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
@@ -177,7 +177,7 @@
 					'</div>';
 
 			$navbarBottom
-				.attr('class', 'demo_hueber2020-navbar')
+				.attr('class', 'hueber2020_demo-navbar')
 				.wrapInner('<div class="navbar-content"></div>')
 				.find('ol')
 					.before(dropDown)
@@ -378,8 +378,8 @@
         }
 	};
 
-	demo_hueber2020Style.prototype = _.extend({}, new blink.theme.styles.basic(), demo_hueber2020Style.prototype);
+	hueber2020_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), hueber2020_demoStyle.prototype);
 
-	blink.theme.styles['demo_hueber2020'] = demo_hueber2020Style;
+	blink.theme.styles['hueber2020_demo'] = hueber2020_demoStyle;
 
 })( blink );
