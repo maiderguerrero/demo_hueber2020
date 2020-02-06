@@ -703,6 +703,30 @@ body.is_app .hueber2020_demo-navbar.ocultar {
     position: absolute;
 }
 
+/*Lista ordenada 3*/
+
+#actividad .content .texto_curso .bck-ol-3 li,
+#actividad .content .workspace ul li .bck-ol-3 li {
+    list-style-type: none;
+    counter-increment: bck-li-counter 1;
+    position: relative;
+    font-weight: 600;
+}
+
+#actividad .content .texto_curso .bck-ol-3 li:before,
+#actividad .content .workspace ul li .bck-ol-3 li:before {
+	content: counter(bck-li-counter, lower-alpha)'';
+    position: absolute;
+    left: -35px;
+    top: -1px;
+    color: #fff;
+    border: 2px solid #F79323;
+    border-radius: 100%;
+    padding: 1px 9px;
+    font-weight: 600;
+}
+
+
 /*----------------Listas desordenadas-------------------*/
 
 #actividad .content ul.bck-ul li {
