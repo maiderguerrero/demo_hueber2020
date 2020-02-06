@@ -77,7 +77,7 @@
 				{ name: 'Imagen derecha', element: 'img', attributes: { 'class': 'bck-img right' } },
 				{ name: 'Imagen izquierda', element: 'img', attributes: { 'class': 'bck-img left' } },
 
-				{ name: 'Icono Clase', element: 'span', attributes: { 'class': 'icon icon-clase' } },
+				{ name: 'Icono 1', element: 'span', attributes: { 'class': 'icon icon-1' } },
 				{ name: 'Icono Clase Rosa', element: 'span', attributes: { 'class': 'icon icon-clase-rosa' } },
 				{ name: 'Icono Conversación', element: 'span', attributes: { 'class': 'icon icon-conversation' } },
 				{ name: 'Icono Conversación Verde', element: 'span', attributes: { 'class': 'icon icon-conversation-verde' } },
