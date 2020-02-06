@@ -648,7 +648,60 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 	color: #EE1B47;
 }
 
-/*listas*/
+/*---------------------------------------------------------LISTAS---------------------------------------*/
+
+/*----------------Listas ordenadas----------------------*/
+
+/*Lista ordenada 1*/
+
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .content .workspace ul li .bck-ol-1 li {
+    list-style-type: none;
+    counter-increment: bck-li-counter 1;
+    position: relative;
+}
+
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before {
+	content: counter(bck-li-counter)'';
+    position: absolute;
+    left: -35px;
+    top: -1px;
+    color: #fff;
+    background: #F79323;
+    border-radius: 100%;
+    padding: 1px 9px;
+    font-weight: 600;
+}
+
+/*Lista ordenada 2*/
+
+#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .workspace ul li .bck-ol-2 {
+	list-style-type: none;
+	 counter-reset: bck-li-counter;
+}
+
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .content .workspace ul li .bck-ol-2 li {
+	counter-increment: bck-li-counter;
+	padding-left: 4px;
+	position: relative;
+	z-index: 0;
+}
+
+#actividad .content .texto_curso ol.bck-ol-2 li:before,
+#actividad .content .workspace ul li ol.bck-ol-2 li:before {
+	content: counter(bck-li-counter, upper-alpha)'.-';
+	color: #9665AB;
+	font-size: 2.3rem;
+    margin-left: -32px;
+    margin-top: -1px;
+    padding-right: 8px;
+    text-align: left;
+}
+
+/*----------------Listas desordenadas-------------------*/
 
 #actividad .content ul.bck-ul li {
 	list-style: none;
@@ -700,47 +753,6 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 	color: #9665AB;
 }
 
-#actividad .content .texto_curso .bck-ol li,
-#actividad .content .workspace ul li .bck-ol li {
-    list-style-type: none;
-    counter-increment: bck-li-counter 1;
-    position: relative;
-}
-
-#actividad .content .texto_curso .bck-ol li:before,
-#actividad .content .workspace ul li .bck-ol li:before {
-	content: counter(bck-li-counter)'.-';
-	position: absolute;
-	left: -47px;
-	width: 38px;
-	text-align: right;
-	color: #9665AB;
-}
-
-#actividad .content .texto_curso .bck-ol-2,
-#actividad .content .workspace ul li .bck-ol-2 {
-	list-style-type: none;
-	 counter-reset: bck-li-counter;
-}
-
-#actividad .content .texto_curso .bck-ol-2 li,
-#actividad .content .workspace ul li .bck-ol-2 li {
-	counter-increment: bck-li-counter;
-	padding-left: 4px;
-	position: relative;
-	z-index: 0;
-}
-
-#actividad .content .texto_curso ol.bck-ol-2 li:before,
-#actividad .content .workspace ul li ol.bck-ol-2 li:before {
-	content: counter(bck-li-counter, upper-alpha)'.-';
-	color: #9665AB;
-	font-size: 2.3rem;
-    margin-left: -32px;
-    margin-top: -1px;
-    padding-right: 8px;
-    text-align: left;
-}
 /**/
 
 /*-----------------------------------------------------Cajas-------------------------------------------------------------*/
