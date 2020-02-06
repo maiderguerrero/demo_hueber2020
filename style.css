@@ -648,6 +648,17 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 	color: #EE1B47;
 }
 
+
+/*Énfasis 5*/
+
+.bck-enfasis-5 {
+	color: #F79323;
+	font-size: 1.6rem;
+    box-shadow: inset 0 0 0 1.5px #f79323;
+    border-radius: 100%;
+    padding: 0px 8px;
+}
+
 /*---------------------------------------------------------LISTAS---------------------------------------*/
 
 /*----------------Listas ordenadas----------------------*/
@@ -720,11 +731,11 @@ body.is_app .hueber2020_demo-navbar.ocultar {
     left: -35px;
     top: -1px;
     color: #F79323;
-    border: 2px solid #F79323;
     border-radius: 100%;
     padding: 0px 8px;
     font-weight: 600;
     font-size: 1.6rem;
+    box-shadow: inset 0 0 0 1.5px #f79323;
 }
 
 
