@@ -659,6 +659,7 @@ body.is_app .hueber2020_demo-navbar.ocultar {
     list-style-type: none;
     counter-increment: bck-li-counter 1;
     position: relative;
+    font-weight: 600;
 }
 
 #actividad .content .texto_curso .bck-ol-1 li:before,
@@ -685,20 +686,21 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 #actividad .content .texto_curso .bck-ol-2 li,
 #actividad .content .workspace ul li .bck-ol-2 li {
 	counter-increment: bck-li-counter;
-	padding-left: 4px;
+	margin-left: -7px;
 	position: relative;
 	z-index: 0;
 }
 
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-	content: counter(bck-li-counter, upper-alpha)'.-';
-	color: #9665AB;
-	font-size: 2.3rem;
-    margin-left: -32px;
-    margin-top: -1px;
+	content: counter(bck-li-counter)'.';
+    color: #333;
+    font-size: 1.9rem;
+    margin-left: -20px;
+    margin-top: 0px;
     padding-right: 8px;
     text-align: left;
+    position: absolute;
 }
 
 /*----------------Listas desordenadas-------------------*/
