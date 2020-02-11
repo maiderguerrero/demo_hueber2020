@@ -718,11 +718,11 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 	content: counter(bck-li-counter)'.';
     color: #333;
     font-size: 1.9rem;
-    margin-left: -28px;
+    margin-left: -30px;
     margin-top: 0px;
-    padding-right: 8px;
-    text-align: left;
+    text-align: right;
     position: absolute;
+    width: 25px;
 }
 
 /*Lista ordenada 3*/
