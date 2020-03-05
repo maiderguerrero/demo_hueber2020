@@ -1503,6 +1503,7 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 
 .unittag_verde_hueber2020 .bck-enfasis-5 {
 	color: #4DBA44;
+	box-shadow: inset 0 0 0 1.5px #4DBA44;
 }
 
 
@@ -1526,6 +1527,7 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 
 .unittag_morado_hueber2020 .bck-enfasis-5 {
 	color: #90489D;
+	box-shadow: inset 0 0 0 1.5px #90489D;
 }
 
 /****/
