@@ -1480,6 +1480,54 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 	color: white;
 }
 /**/
+
+/*--------------------------------------------------------TAGS--------------------------------------------------------------*/
+
+/*--------------------unittag_verde_hueber2020------------------*/
+
+/*Lista ordenada 1*/
+.unittag_verde_hueber2020 #actividad .content .texto_curso .bck-ol-1 li:before,
+.unittag_verde_hueber2020 #actividad .content .workspace ul li .bck-ol-1 li:before {
+    background: #4DBA44;
+}
+
+/*Lista ordenada 3*/
+
+.unittag_verde_hueber2020 #actividad .content .texto_curso .bck-ol-3 li:before,
+.unittag_verde_hueber2020 #actividad .content .workspace ul li .bck-ol-3 li:before {
+    color: #4DBA44;
+    box-shadow: inset 0 0 0 1.5px #4DBA44;
+}
+
+/*Énfasis 5*/
+
+.unittag_verde_hueber2020 .bck-enfasis-5 {
+	color: #4DBA44;
+}
+
+
+/*--------------------unittag_morado_hueber2020-----------------*/
+
+/*Lista ordenada 1*/
+.unittag_morado_hueber2020 #actividad .content .texto_curso .bck-ol-1 li:before,
+.unittag_morado_hueber2020 #actividad .content .workspace ul li .bck-ol-1 li:before {
+    background: #90489D;
+}
+
+/*Lista ordenada 3*/
+
+.unittag_morado_hueber2020 #actividad .content .texto_curso .bck-ol-3 li:before,
+.unittag_morado_hueber2020 #actividad .content .workspace ul li .bck-ol-3 li:before {
+    color: #4DBA44;
+    box-shadow: inset 0 0 0 1.5px #90489D;
+}
+
+/*Énfasis 5*/
+
+.unittag_morado_hueber2020 .bck-enfasis-5 {
+	color: #90489D;
+}
+
 /****/
 
 @media screen and (max-width: 768px) {
