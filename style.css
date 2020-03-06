@@ -692,14 +692,14 @@ body.is_app .hueber2020_demo-navbar.ocultar {
     counter-increment: bck-li-counter 1;
     position: relative;
     font-weight: 600;
-    margin-left: -38px;
+    margin-left: -10px;
 }
 
 #actividad .content .texto_curso .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
 	content: counter(bck-li-counter)'';
     position: absolute;
-    left: -37px;
+    left: -30px;
     top: -2px;
     color: #fff;
     background: #F79323;
