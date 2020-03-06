@@ -689,12 +689,14 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 	content: counter(bck-li-counter)'';
     position: absolute;
     left: -35px;
-    top: -1px;
+    top: -2px;
     color: #fff;
     background: #F79323;
     border-radius: 100%;
-    padding: 1px 9px;
+    padding: 2px 0px;
     font-weight: 600;
+    width: 30px;
+    text-align: center;
 }
 
 /*Lista ordenada 2*/
