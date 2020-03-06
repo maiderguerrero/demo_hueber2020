@@ -699,7 +699,7 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 #actividad .content .workspace ul li .bck-ol-1 li:before {
 	content: counter(bck-li-counter)'';
     position: absolute;
-    left: -30px;
+    left: -35px;
     top: -2px;
     color: #fff;
     background: #F79323;
