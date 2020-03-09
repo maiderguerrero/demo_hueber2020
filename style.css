@@ -210,7 +210,8 @@ fieldset[disabled] .content_type_clase_hueber2020_demo .slide_main input {
 
 #indice .unit-content .header.default {
 	background-image: url(../../../images/libro/transparente.png) ! important;
-	background-color: #7aac39;
+	background-color: #9665ab;
+	opacity: 0.78;
 }
 
 #indice .units ul li a .number {
