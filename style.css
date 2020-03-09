@@ -96,6 +96,11 @@ input, button, select, textarea {
 	font-weight: bold;
 }
 
+#indice .unit-content .header .title {
+	display: none;
+}
+
+
 /**/
 
 .content_type_clase_hueber2020_demo #actividad .texto_curso {
