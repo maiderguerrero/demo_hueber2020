@@ -1,14 +1,3 @@
-/*AJUSTE PROVISIONAL LISTAS*/
-/*
-.item-container ol[style*="counter-reset"] li::before, 
-.cke_editor_idrich_text .cke_contents ol[style*="counter-reset"] li::before {
-    content: counter(bck-li-counter)'';
-}
-*/
-
-/**/
-
-
 /*General */
 .body_clase .content-wrapper {
 	padding-top: 130px;
