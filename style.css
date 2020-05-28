@@ -1510,7 +1510,7 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 
 .unittag_morado_hueber2020 #actividad .content .texto_curso .bck-ol-3 li:before,
 .unittag_morado_hueber2020 #actividad .content .workspace ul li .bck-ol-3 li:before {
-    color: #4DBA44;
+    color: #90489D;
     box-shadow: inset 0 0 0 1.5px #90489D;
 }
 
@@ -1519,6 +1519,75 @@ body.is_app .hueber2020_demo-navbar.ocultar {
 .unittag_morado_hueber2020 .bck-enfasis-5 {
 	color: #90489D;
 	box-shadow: inset 0 0 0 1.5px #90489D;
+}
+
+/*--------------------unittag_azul_hueber2020-----------------*/
+
+/*Lista ordenada 1*/
+.unittag_azul_hueber2020 #actividad .content .texto_curso .bck-ol-1 li:before,
+.unittag_azul_hueber2020 #actividad .content .workspace ul li .bck-ol-1 li:before {
+    background: #009FDA;
+}
+
+/*Lista ordenada 3*/
+
+.unittag_azul_hueber2020 #actividad .content .texto_curso .bck-ol-3 li:before,
+.unittag_azul_hueber2020 #actividad .content .workspace ul li .bck-ol-3 li:before {
+    color: #009FDA;
+    box-shadow: inset 0 0 0 1.5px #009FDA;
+}
+
+/*Énfasis 5*/
+
+.unittag_azul_hueber2020 .bck-enfasis-5 {
+	color: #009FDA;
+	box-shadow: inset 0 0 0 1.5px #009FDA;
+}
+
+/*--------------------unittag_rosa_hueber2020-----------------*/
+
+/*Lista ordenada 1*/
+.unittag_rosa_hueber2020 #actividad .content .texto_curso .bck-ol-1 li:before,
+.unittag_rosa_hueber2020 #actividad .content .workspace ul li .bck-ol-1 li:before {
+    background: #ED1651;
+}
+
+/*Lista ordenada 3*/
+
+.unittag_rosa_hueber2020 #actividad .content .texto_curso .bck-ol-3 li:before,
+.unittag_rosa_hueber2020 #actividad .content .workspace ul li .bck-ol-3 li:before {
+    color: #ED1651;
+    box-shadow: inset 0 0 0 1.5px #ED1651;
+}
+
+/*Énfasis 5*/
+
+.unittag_rosa_hueber2020 .bck-enfasis-5 {
+	color: #ED1651;
+	box-shadow: inset 0 0 0 1.5px #ED1651;
+}
+
+/*--------------------unittag_aguamarina_hueber2020-----------------*/
+
+/*Lista ordenada 1*/
+.unittag_aguamarina_hueber2020 #actividad .content .texto_curso .bck-ol-1 li:before,
+.unittag_aguamarina_hueber2020 #actividad .content .workspace ul li .bck-ol-1 li:before {
+    background: #008E77;
+}
+
+/*Lista ordenada 3*/
+
+.unittag_aguamarina_hueber2020 #actividad .content .texto_curso .bck-ol-3 li:before,
+.unittag_aguamarina_hueber2020 #actividad .content .workspace ul li .bck-ol-3 li:before {
+    color: #008E77;
+    box-shadow: inset 0 0 0 1.5px #008E77;
+}
+
+/*Énfasis 5*/
+
+.unittag_aguamarina_hueber2020 .bck-enfasis-5 {
+	color: #008E77;
+	box-shadow: inset 0 0 0 1.5px #008E77;
 }
 
 /****/
